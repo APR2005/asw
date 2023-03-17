@@ -14,7 +14,7 @@ const userRouter = require("./routes/userRouter");
 const moment = require('moment');
 const adminRouter = require("./routes/adminRouter");
 PORT=process.env.PORT;
-require('dotenv').config()
+require('dotenv').config() 
 // setting up view engine for user routes
 
 userRouter.set("views", path.join(__dirname, "views/user"));
